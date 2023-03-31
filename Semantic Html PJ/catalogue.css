@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background:white;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-image: url("images/carwallpaper.AVIF");
+
+  }
+
+  img{
+    height:100px;
+    width: 100px;
+  }
+
+
+
+li{
+    display: inline-flex;
+    text-decoration: none;
+  }
+  
+  nav{
+    background-color: rgb(58, 58, 58);
+    ;
+    
+  }
+
+  a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-text-stroke-width: .5px;
+      -webkit-text-stroke-color: black;
+  
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color:black ;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: white;
+  }
+  
+
+  
+  
+  h1{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+  
+
+    
+  
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+    width: auto;
+  }
+
+p{
+  color: #fff;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;  
+}
+  
+  /* Define the grid items */
+  article {
+    background-color:  rgb(58, 58, 58);
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:50px;
+    width:100%;
+    background:black;
+    position: absolute;
+    }
+    
+    .slogo{
+      height: 60px;
+    width: 60px;
+    }
+    .social-links ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .social-links li {
+      margin-right: 10px;
+    }
+    
+    .social-links a {
+      color: #fff;
+      font-size: 20px;
+    }
+    
+    .social-links a:hover {
+      color: red;
+    }
+  
+    
+    @media screen and (max-width: 600px) {
+      .social-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .social-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for screens between 601px and 1024px */
+}
+
+@media (min-width: 1025px) {
+  /* Styles for screens greater than 1025px */
+}
+    
+  

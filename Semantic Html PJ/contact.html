@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="topnav" id="myTopnav">
+        <nav>
+        <h1>Queen city Exotics</h1>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="catalogue.html">Catalogue</a></li>
+             <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+        </section>
+
+    <form action="action_page.php">
+        <fieldset>
+          <legend>Contact Information</legend>
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+          <br>
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+          <br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your email address.." required>
+        </fieldset>
+        <fieldset>
+          <legend>Shipping Information</legend>
+          <label for="shipping">Shipping Method:</label>
+          <select id="shipping" name="shipping" required>
+            <option value="">Choose a shipping method..</option>
+            <option value="shipping-1">Normal (Free)</option>
+            <option value="shipping-2">3 day Standard (9.99$)</option>
+            <option value="shipping-3">1 day Premium (19.99$)</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>Quote Information</legend>
+          <label for="quote">Make a Quote:</label>
+          <textarea id="quote" name="quote" placeholder="Make a Quote for your car.." rows="8" required></textarea>
+        </fieldset>
+        <button type="submit">Submit</button>
+      
+        <footer>
+            <nav class="social-links">
+              <ul>
+                <li><a href="https://www.instagram.com"><img class="slogo" src="images/instagram.AVIF" alt="instagram"></a></li>
+            <li><a href="https://www.linkedin.com"><img class="slogo" src="images/linkedin.AVIF" alt="linkedin"></a></li>
+            <li><a href="https://www.twitter.com"><img class="slogo" src="images/twitter.AVIF" alt="twitter"></a></li>
+              </ul>
+            </nav>
+          </footer>
+          
+
+
+    
+</body>
+</html>
