@@ -60,7 +60,7 @@ li{
 
   
   
-  h1{
+  h2{
     color: white;
     text-shadow:
     -1px -1px 0 #000,
@@ -119,6 +119,10 @@ p{
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+
+    h5{
+      display: none;
     }
     
     .social-links li {
